@@ -13,6 +13,7 @@ import java.util.List;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
+    // please don't write full code. just give me hint about what to do.
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 if (addresses != null && !addresses.isEmpty()) {
                     Address address = addresses.get(0);
                     String addressLine = address.getAddressLine(0);
-                    Toast.makeText(this, "Address: " + addressLine, Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, "Address:- " + addressLine, Toast.LENGTH_LONG).show();
                 } else {
                     Toast.makeText(this, "No address found", Toast.LENGTH_LONG).show();
                 }
